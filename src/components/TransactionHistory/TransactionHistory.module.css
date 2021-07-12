@@ -1,0 +1,32 @@
+.history {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+  background-color: #fff;
+  color: gray;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 1px 2px 5px 0px rgb(0 0 0 / 30%);
+}
+.head {
+  padding: 5px;
+  width: calc(250px / 3);
+  text-transform: uppercase;
+  background-color: dodgerblue;
+  color: #fff;
+}
+.head:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.item {
+  padding: 5px;
+  text-transform: capitalize;
+}
+.item:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+.row:nth-child(2n) {
+  background-color: rgba(211, 211, 211, 0.61);
+}

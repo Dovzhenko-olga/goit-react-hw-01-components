@@ -1,0 +1,5 @@
+{
+  "haaks": {
+    "pre-commit": "lint-staged"
+  }
+}
